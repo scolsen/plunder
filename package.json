@@ -1,0 +1,26 @@
+{
+  "name": "plunder",
+  "version": "1.0.0",
+  "description": "Decompose and analyze open API specification files.\u001b[D\u001b[D\u001b[D\u001b[D\u001b[D\u001b[D\u001b[D\u001b[D\u001b[D\u001b[D\u001b[D\u001b[D\u001b[D\u001b[D\u001b[D\u001b[D\u001b[D\u001b[D\u001b[D\u001b[D\u001b[D\u001b[D\u001b[D\u001b[D\u001b[D\u001b[D\u001b[D\u001b[O",
+  "main": "plunder.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/scolsen/plunder.git"
+  },
+  "keywords": [
+    "api",
+    "open",
+    "swagger",
+    "analyze",
+    "decompose"
+  ],
+  "author": "Scott Olsen",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/scolsen/plunder/issues"
+  },
+  "homepage": "https://github.com/scolsen/plunder#readme"
+}
