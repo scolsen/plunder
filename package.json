@@ -1,7 +1,7 @@
 {
   "name": "plunder",
-  "version": "1.0.0",
-  "description": "Decompose and analyze open API specification files.\u001b[D\u001b[D\u001b[D\u001b[D\u001b[D\u001b[D\u001b[D\u001b[D\u001b[D\u001b[D\u001b[D\u001b[D\u001b[D\u001b[D\u001b[D\u001b[D\u001b[D\u001b[D\u001b[D\u001b[D\u001b[D\u001b[D\u001b[D\u001b[D\u001b[D\u001b[D\u001b[D\u001b[O",
+  "version": "0.0.1",
+  "description": "Decompose and analyze open API specification files.",
   "main": "plunder.js",
   "scripts": {
     "test": "mocha"
@@ -18,12 +18,13 @@
     "decompose"
   ],
   "author": "Scott Olsen",
-  "license": "MIT",
+  "license": "ISC",
   "bugs": {
     "url": "https://github.com/scolsen/plunder/issues"
   },
   "homepage": "https://github.com/scolsen/plunder#readme",
   "devDependencies": {
-    "mocha": "^5.0.2"
+    "mocha": "^5.0.3",
+    "tarski": "0.0.1"
   }
 }
