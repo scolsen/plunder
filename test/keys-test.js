@@ -21,4 +21,16 @@ describe("Keys", function(){
     });  
   });
 
+  describe('#search()', function(){
+    it('Should search the json top level for provided keys and return a partition of labeled results.', function(){
+      assert.deepEqual({found: ["info", "paths"], not_found: ["boo"]}, plunder.keys.search(j, "info", "paths", "boo"));  
+    });  
+  });
+
+  describe('#expunge()', function(){
+    it('Should return an object with keys found in the original json removed.', function(){
+      assert.deepEqual({"swagger": "2.0"}, plunder.keys.expunge(j, "info", "host", "schemes", "basePath", "produces", "paths", "definitions"));  
+    }); 
+  });
+
 });
